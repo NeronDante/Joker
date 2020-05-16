@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#ff8f27" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joker</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#" class="logo">КиноПлюс</a>
+        <form class="search">
+          <input
+            type="search"
+            class="search-input"
+            placeholder="Фильмы, сериалы, актеры"
+          />
+          <button type="submit" class="search-button">
+            <a href="#"> <img src="img/search-icon.svg" alt="search-icon" /></a>
+          </button>
+        </form>
+        <div class="user">
+          <button class="bookmark">
+            <img src="img/bookmark.svg" alt="bookmark" />
+          </button>
+          <img src="img/avatar.jpg" alt="avatar" class="avatar" />
+        </div>
+      </header>
+
+      <main class="main">
+        <h1 class="title animated fadeInUp">Джокер</h1>
+        <small class="title-en animated fadeInUp">The Joker</small>
+        <div class="info animated fadeInUp delay-1s">
+          <div class="movie-info">
+            <span class="tag">Фильм</span>
+            <span class="country">США, 2019год</span>
+            <a data-fancybox href="https://youtu.be/jGfiPs9zuhE" class="play"
+              >Смотреть трейлер</a
+            >
+          </div>
+          <a href="#" class="more">Подробнее</a>
+        </div>
+        <div class="content">
+          <div class="short-info">
+            <img
+              src="./img/2550104_600.jpg"
+              alt=""
+              height="262"
+              width="183"
+              class="poster"
+            />
+            <button class="button">Буду смотреть</button>
+            <h3 class="actors-title">В главных ролях:</h3>
+            <ul class="actors-list">
+              <li class="actors-list-item">Хоакин Феникс</li>
+              <li class="actors-list-item">Роберт Де Ниро</li>
+              <li class="actors-list-item">Зази Битц</li>
+              <li class="actors-list-item">Фрэнсис Конрой</li>
+              <li class="actors-list-item">Бретт Каллен</li>
+              <li class="actors-list-item">Шей Уигэм</li>
+              <li class="actors-list-item">Билл Кэмп</li>
+              <li class="actors-list-item">Гленн Флешлер</li>
+              <li class="actors-list-item">Ли Гилл</li>
+              <li class="actors-list-item">Джош Пэйс</li>
+            </ul>
+          </div>
+          <!-- /.short-info -->
+
+          <div class="full-info">
+            <nav class="tabs">
+              <a href="#about" class="tabs-item tabs-item-active">Описание</a>
+              <a href="#reviews" class="tabs-item">Рецензии</a>
+              <a href="#premieres" class="tabs-item">Премьеры</a>
+              <a href="#actors" class="tabs-item">Актеры</a>
+              <a href="#achievements" class="tabs-item">Награды</a>
+              <a href="#facts" class="tabs-item">Факты</a>
+              <a href="#sites" class="tabs-item">Сайты</a>
+              <a href="#" class="tabs-item">
+                <img
+                  src="./img/bookmark-icon.svg"
+                  alt="кнопка закладка"
+                  class="bookmark-added"
+              /></a>
+            </nav>
+
+            <div class="full-content">
+              <div class="tabs-content visible" id="about">
+                <p class="text">
+                  История становления знаменитого злодея из Готэма. Неудачливый
+                  клоун Артур Флек однажды перестает бороться со своим безумием
+                  и жестоко смеется над всем ненавистным городом. Трехкратный
+                  номинант на «Оскар» Хоакин Феникс исполнил одну из лучших
+                  ролей в своей карьере в долгожданном фильме-событии «Джокер»
+                  режиссера Тодда Филлипса. На Венецианском фестивале-2019 фильм
+                  получил главный приз «Золотой лев».
+                </p>
+                <p class="text">
+                  Артур Флек – один из миллионов жителей мрачных трущоб
+                  Готэм-сити. Он работает уличным клоуном, наблюдается у
+                  врача-психиатра и, сколько себя помнит, заботится о своей
+                  болезненной матери. Несмотря на нестабильную психику и
+                  негативные мысли, у него самая безобидная мечта – стать
+                  известным стендап-комиком.
+                </p>
+                <h4 class="text-title">Ошибки в фильме</h4>
+                <p class="text">
+                  Действия данного фильма разворачиваются в 1981 году. Можно
+                  лицезреть, как «Кролики Energizer» были показаны в
+                  телевизионной рекламе (кроликов можно заметить на одном из
+                  многочисленных экранов после убийства Артуром Мюррея). В
+                  реальной жизни маскот «Кролик Energizer» не был представлен до
+                  1988 года.
+                </p>
+                <p class="text">
+                  В сцене в поезде и впоследствии на станции Артур делает семь
+                  или даже восемь выстрелов из револьвера (который способен
+                  произвести только шесть выстрелов). За это время Артур не
+                  перезаряжал своё оружие.
+                </p>
+                <p class="text">
+                  Когда Артур убивает третьего бизнесмена из Wayne Enterprises
+                  на станции метро, ​​тело бизнесмена, лежащее на лестнице,
+                  слегка меняет своё положение между переключением кадров.
+                </p>
+              </div>
+              <div class="tabs-content" id="reviews">
+                <h4 class="text-title">Готемский Башмачкин</h4>
+                <p class="text">
+                  У каждого своё восприятие. Лично я, при просмотре вспоминал
+                  Шинель Гоголя. Всё та же история про маленького человека. Как
+                  и Акакий Акакиевич Джокер жалок, никчемен, даже омерзителен.
+                  Башмачкин как и Джокер ломается, не выносит жестокости мира и
+                  переходит на сторону зла. Не переставая быть жалким, он
+                  становится зловещим и ужасным.
+                </p>
+                <p class="text">
+                  Лично мне претит вся эта история с матерью. Да и история про
+                  отца какая то убогая и примитивно безликая.
+                </p>
+                <p class="text">
+                  Оправдание, или точнее объяснение происходящего перерождения
+                  героя психопатологией искажает смысл, снижает пафос социальной
+                  проблемы. А она хорошо сформулирована в одной из «шуток» — Моя
+                  смерть принесёт людям больше пользы чем моя жизнь. Таких
+                  никчемных и никому ненужных людей становится всё больше.
+                  Авторы, должно быть, считают, что избежать такого бунта можно,
+                  надо строить мир, где будет больше любви и заботы. Недостаток
+                  света порождает тьму, недостаток добра -зло. Должно быть они
+                  правы.
+                </p>
+                <p>
+                  Вспоминается стих Бодлера «Непокорный». Ангел грешника терзает
+                  беспощадно, приговаривая, что надо любить всех. Лжецов и
+                  подлецов и прочих мерзавцев. Но грешник упорно отвечает — Не
+                  хочу. Думаю, Бодлер в уста грешника мог бы вложить и слово —
+                  «не могу».
+                </p>
+                <p>
+                  Думаю, что немало зрителей это могут. Всё что происходит на
+                  экране соответствует их представлениям о справедливости.
+                </p>
+                <p>
+                  Сильна сюрреалистическая сцена в театре. Чарли Чаплин -вот тот
+                  маленький человек, который нужен зрителям во фраках. Добрый,
+                  благородный, неунывающий. Но реальность — другая. Им в спину
+                  смотрит маленький человек — злобный, мстительный, жестокий и
+                  безжалостный.
+                </p>
+                <p>
+                  Бунт — бессмысленный и беспощадный — страшен. Даже начинаешь
+                  думать — уж лучше жулики и воры.
+                </p>
+              </div>
+              <div class="tabs-content" id="premieres">
+                <p class="text"><i class="bold">24 июня 2019</i> Аргентина</p>
+                <p class="text"><i class="bold">24 июня 2019</i> Россия</p>
+                <p class="text"><i class="bold">24 июня 2019</i> Словакия</p>
+                <p class="text">
+                  <i class="bold">25 июня 2019</i> Американские Виргинские
+                  острова
+                </p>
+                <p class="text"><i class="bold">25 июня 2019</i> Бельгия</p>
+                <p class="text"><i class="bold">25 июня 2019</i> Бразилия</p>
+                <p class="text">
+                  <i class="bold">25 июня 2019</i> Великобритания
+                </p>
+                <p class="text"><i class="bold">25 июня 2019</i> Канада</p>
+                <p class="text"><i class="bold">25 июня 2019</i> Литва</p>
+                <p class="text"><i class="bold">25 июня 2019</i> Португалия</p>
+                <p class="text"><i class="bold">25 июня 2019</i> США</p>
+              </div>
+              <div class="tabs-content" id="actors">
+                <div class="actors">
+                  <div>
+                    <img src="./img/actor1.jpg" alt="" />
+                    <h4 class="text-title">Хоакин Феникс</h4>
+                    <p class="text">Arthur Fleck</p>
+                  </div>
+                  <div>
+                    <img src="./img/actor2.jpg" alt="" />
+                    <h4 class="text-title">Роберт Де Ниро</h4>
+                    <p class="text">Murray Franklin</p>
+                  </div>
+                  <div>
+                    <img src="./img/actor3.jpg" alt="" />
+                    <h4 class="text-title">Зази Битц</h4>
+                    <p class="text">Sophie Dumond</p>
+                  </div>
+                  <div>
+                    <img src="./img/actor4.jpg" alt="" />
+                    <h4 class="text-title">Фрэнсис Конрой</h4>
+                    <p class="text">Penny Fleck</p>
+                  </div>
+                  <div>
+                    <img src="./img/actor5.jpeg" alt="" />
+                    <h4 class="text-title">Бретт Каллен</h4>
+                    <p class="text">Thomas Wayne</p>
+                  </div>
+                  <div>
+                    <img src="./img/actor6.jpg" alt="" />
+                    <h4 class="text-title">Шей Уигэм</h4>
+                    <p class="text">Detective Burke</p>
+                  </div>
+                </div>
+              </div>
+              <div class="tabs-content" id="achievements">
+                <ul class="text awards_ul">
+                  <li>
+                    <h2>Оскар 2020:</h2>
+                  </li>
+
+                  <li>
+                    <h3>
+                      Победитель
+                    </h3>
+                    <ul>
+                      <li>Лучшая мужская роль ( Хоакин Феникс )</li>
+                      <li>Лучший саундтрек</li>
+                    </ul>
+                  </li>
+                  <br />
+                  <li>
+                    <h3>
+                      Номинации
+                    </h3>
+                    <ul>
+                      <li>Лучший фильм</li>
+                      <li>Лучший режиссер (Тодд Филлипс)</li>
+                      <li>Лучший адаптированный сценарий</li>
+                      <li>Лучшая работа оператора</li>
+                      <li>Лучшие костюмы</li>
+                      <li>Лучший звук</li>
+                      <li>Лучший монтаж</li>
+                      <li>Лучший монтаж звука</li>
+                      <li>Лучший грим и прически</li>
+                    </ul>
+                  </li>
+                </ul>
+                <br />
+                <ul class="text awards_ul">
+                  <li><h2>Золотой глобус 2020:</h2></li>
+                  <li><h3>Победитель</h3></li>
+                  <ul>
+                    <li>Лучшая мужская роль (драма) ( Хоакин Феникс )</li>
+                    <li>Лучший саундтрек</li>
+                  </ul>
+                  <br />
+                  <li><h3>Номинации</h3></li>
+                  <ul>
+                    <li>Лучший фильм (драма)</li>
+                    <li>Лучший режиссер (Тодд Филлипс)</li>
+                  </ul>
+                </ul>
+                <br />
+                <ul class="text awards_ul">
+                  <li>
+                    <h2>
+                      Золотая малина 2020:
+                    </h2>
+                  </li>
+                  <li><h3>Номинации</h3></li>
+                  <ul>
+                    <li>
+                      Приз за пренебрежение человеческой жизнью и общественной
+                      собственностью
+                    </li>
+                  </ul>
+                </ul>
+                <br />
+                <ul class="text awards_ul">
+                  <li><h2>Британская академия 2020:</h2></li>
+                  <li><h3>Победитель</h3></li>
+                  <ul>
+                    <li>Лучшая мужская роль ( Хоакин Феникс )</li>
+                    <li>Лучший саундтрек</li>
+                    <li>Лучший кастинг</li>
+                  </ul>
+                  <br />
+                  <li><h3>Номинации</h3></li>
+                  <ul>
+                    <li>Лучший фильм</li>
+                    <li>Лучший режиссер (Тодд Филлипс)</li>
+                    <li>Лучший адаптированный сценарий</li>
+                    <li>Лучшая работа оператора (Лоуренс Шер)</li>
+                    <li>Лучший звук</li>
+                    <li>Лучший монтаж</li>
+                    <li>
+                      Лучшая работа художника-постановщика (Марк Фридберг, Крис
+                      Моран)
+                    </li>
+                    <li>Лучший грим/прически</li>
+                  </ul>
+                </ul>
+                <br />
+                <ul class="text awards_ul">
+                  <li>
+                    <h2>
+                      Сезар 2020:
+                    </h2>
+                  </li>
+                  <li><h3>Номинации</h3></li>
+                  <ul>
+                    <li>Лучший фильм на иностранном языке</li>
+                  </ul>
+                </ul>
+                <br />
+                <ul class="text awards_ul">
+                  <li><h2>Премия Гильдии актеров 2020:</h2></li>
+                  <li><h3>Победитель</h3></li>
+                  <ul>
+                    <li>Лучшая мужская роль ( Хоакин Феникс )</li>
+                  </ul>
+                  <br />
+                  <li><h3>Номинации</h3></li>
+                  <ul>
+                    <li>Лучший каскадерский состав</li>
+                  </ul>
+                </ul>
+                <br />
+                <ul class="text awards_ul">
+                  <li><h2>Венецианский кинофестиваль 2019:</h2></li>
+                  <li><h3>Победитель</h3></li>
+                  <ul>
+                    <li>Золотой лев</li>
+                    <li>Премия Soundtrack Stars</li>
+                  </ul>
+                </ul>
+              </div>
+              <div class="tabs-content" id="facts">
+                <p class="text">
+                  Боссы студии хотели, чтобы роль Джокера исполнил Леонардо
+                  ДиКаприо. Среди других потенциальных исполнителей этой роли
+                  были Брэдли Купер, Джейк Джилленхол, Адам Драйвер, Джеймс
+                  Франко, Уилл Поултер, Дэн Стивенс, Пол Дано, Калеб Лэндри
+                  Джонс, Иван Реон и Билл Скарсгард.
+                </p>
+                <p class="text">
+                  Боссы студии хотели, чтобы роль Джокера исполнил Леонардо
+                  ДиКаприо. Среди других потенциальных исполнителей этой роли
+                  были Брэдли Купер, Джейк Джилленхол, Адам Драйвер, Джеймс
+                  Франко, Уилл Поултер, Дэн Стивенс, Пол Дано, Калеб Лэндри
+                  Джонс, Иван Реон и Билл Скарсгард.
+                </p>
+              </div>
+              <div class="tabs-content" id="sites">
+                <p class="text">
+                  <a href="http://www.jokermovie.net">www.jokermovie.net</a>
+                </p>
+                <p class="text">
+                  <a href="https://www.warnerbros.com/movies/joker"
+                    >www.warnerbros.com/movies/joker</a
+                  >
+                </p>
+              </div>
+              <div class="subscribe">
+                <h3 class="subscribe-title">Подпишитесь на обновления</h3>
+                <from action="#" class="subscribe-form">
+                  <input
+                    type="text"
+                    class="subscribe-input"
+                    placeholder="Ваш Email"
+                  />
+                  <button class="subscribe-button">
+                    <img src="./img/check.svg" alt="check" />
+                  </button>
+                </from>
+                <a href="#"><img src="./img/banner.jpg" alt="banner" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.content -->
+      </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <!-- библиотека jquery -->
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <!-- Fancybox -->
+    <script src="js/main.js"></script>
+    <!-- мои скрипты -->
+  </body>
+</html>
