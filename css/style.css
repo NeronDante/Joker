@@ -7,7 +7,7 @@ body {
   background-color: #0a090a;
   color: white;
   font-family: "Roboto", sans-serif;
-  background-image: url(/img/joker.jpg);
+  background-image: url(../img/joker.jpg);
   background-position: top center;
 }
 .container {
